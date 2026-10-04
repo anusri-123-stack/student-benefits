@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Benefits</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;color:#172033;background:#f7f9ff;line-height:1.6}
+header{background:#fff;position:sticky;top:0;z-index:10;box-shadow:0 2px 12px #00000012}
+nav{max-width:1100px;margin:auto;padding:18px 24px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:24px;font-weight:800;color:#5b4bdb}
+nav a{color:#172033;text-decoration:none;margin-left:22px;font-weight:600}
+.hero{max-width:1100px;margin:auto;padding:90px 24px;display:flex;align-items:center;gap:50px}
+.hero-text{flex:1}.hero h1{font-size:52px;line-height:1.1;margin-bottom:20px}
+.hero h1 span{color:#5b4bdb}.hero p{font-size:18px;color:#596273;margin-bottom:28px}
+.btn{display:inline-block;background:#5b4bdb;color:white;padding:13px 24px;border-radius:10px;text-decoration:none;font-weight:bold}
+.hero-card{flex:1;background:linear-gradient(135deg,#e9e5ff,#dcecff);padding:45px;border-radius:28px;text-align:center;font-size:80px}
+section{padding:75px 24px}.container{max-width:1100px;margin:auto}
+.title{text-align:center;margin-bottom:45px}.title h2{font-size:36px}.title p{color:#687285}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{background:#fff;padding:28px;border-radius:18px;box-shadow:0 8px 25px #27325b12;transition:.2s}
+.card:hover{transform:translateY(-5px)}
+.icon{font-size:36px;margin-bottom:12px}.card h3{margin-bottom:8px}.card p{color:#687285}
+.about{background:#eef0ff}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;text-align:center}
+.stat{background:white;padding:25px;border-radius:16px}.stat strong{font-size:32px;color:#5b4bdb}
+.cta{background:#5b4bdb;color:white;text-align:center}.cta p{margin:12px 0 25px}.cta .btn{background:white;color:#5b4bdb}
+footer{text-align:center;padding:22px;background:#111827;color:#cbd5e1}
+@media(max-width:750px){nav a{display:none}.hero{flex-direction:column;padding:60px 24px}.hero h1{font-size:40px}.grid,.stats{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+<nav>
+<div class="logo">Student<span style="color:#172033">Benefits</span></div>
+<div>
+<a href="#benefits">Benefits</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+</div>
+</nav>
+</header>
+
+<main>
+<section class="hero">
+<div class="hero-text">
+<h1>Unlock Your <span>Potential</span>, Build Your Future</h1>
+<p>Discover the benefits that help students improve their skills, confidence, knowledge and career opportunities.</p>
+<a class="btn" href="#benefits">Explore Benefits</a>
+</div>
+<div class="hero-card">🎓<br><small style="font-size:18px">Learn • Grow • Succeed</small></div>
+</section>
+
+<section id="benefits">
+<div class="container">
+<div class="title"><h2>Why Student Benefits Matter</h2><p>Everything students need to grow personally and professionally.</p></div>
+<div class="grid">
+<div class="card"><div class="icon">📚</div><h3>Better Learning</h3><p>Build strong knowledge through continuous learning and practical experience.</p></div>
+<div class="card"><div class="icon">💻</div><h3>Skill Development</h3><p>Improve technical, creative and problem-solving skills for the future.</p></div>
+<div class="card"><div class="icon">🎯</div><h3>Career Growth</h3><p>Prepare for internships, interviews and exciting career opportunities.</p></div>
+<div class="card"><div class="icon">🗣️</div><h3>Communication</h3><p>Develop confidence in speaking, presenting and working with others.</p></div>
+<div class="card"><div class="icon">🤝</div><h3>Teamwork</h3><p>Learn collaboration, leadership and how to contribute effectively in a team.</p></div>
+<div class="card"><div class="icon">🚀</div><h3>Personal Growth</h3><p>Become more confident, responsible and ready to face new challenges.</p></div>
+</div>
+</div>
+</section>
+
+<section class="about" id="skills">
+<div class="container">
+<div class="title"><h2>Student Growth at a Glance</h2><p>Small improvements today can create a stronger tomorrow.</p></div>
+<div class="stats">
+<div class="stat"><strong>100%</strong><br>Learning Focus</div>
+<div class="stat"><strong>6+</strong><br>Key Benefits</div>
+<div class="stat"><strong>∞</strong><br>Opportunities</div>
+</div>
+</div>
+</section>
+
+<section class="cta" id="contact">
+<div class="container">
+<h2>Ready to Grow?</h2>
+<p>Start learning, developing your skills and building your future today.</p>
+<a class="btn" href="mailto:studentbenefits@example.com">Get Started</a>
+</div>
+</section>
+</main>
+
+<footer>© 2026 Student Benefits | College Project</footer>
+</body>
+</html>
